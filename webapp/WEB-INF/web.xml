@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+
+  <servlet>
+    <servlet-name>Hello</servlet-name>
+    <servlet-class>HelloWorld</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>Simple</servlet-name>
+    <servlet-class>SimpleServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Simple2</servlet-name>
+    <servlet-class>SimpleServlet2</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Simple3</servlet-name>
+    <servlet-class>SimpleServlet3</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>HelloAL23083</servlet-name>
+  	<servlet-class>HelloAL23083</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>PlusAL23083</servlet-name>
+  	<servlet-class>PlusAL23083</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>Tricon</servlet-name>
+  	<servlet-class>TriconAL23083</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>Pluscon</servlet-name>
+  	<servlet-class>PlusconAL23083</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>ControlAL23083</servlet-name>
+  	<servlet-class>ControlAL23083</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>ChatCon</servlet-name>
+  	<servlet-class>ChatCon23083</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Hello</servlet-name>
+    <url-pattern>/servlet/hello</url-pattern>
+  </servlet-mapping>
+	
+	<servlet-mapping>
+    <servlet-name>Simple</servlet-name>
+    <url-pattern>/servlet/Simple/</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Simple2</servlet-name>
+    <url-pattern>/servlet/SimpleServlet2/</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Simple3</servlet-name>
+    <url-pattern>/servlet/SimpleServlet3/</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>HelloAL23083</servlet-name>
+    <url-pattern>/servlet/helloAL23083/</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>PlusAL23083</servlet-name>
+    <url-pattern>/servlet/plus/</url-pattern> 
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Tricon</servlet-name>
+    <url-pattern>/servlet/TriconAL23083/</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Pluscon</servlet-name>
+    <url-pattern>/servlet/PlusconAL23083/</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ControlAL23083</servlet-name>
+    <url-pattern>/servlet/ControlAL23083/</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ChatCon</servlet-name>
+    <url-pattern>/servlet/ChatCon/</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
